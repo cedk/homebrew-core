@@ -12,6 +12,7 @@ class Goocanvas < Formula
   end
 
   depends_on "pkg-config" => :build
+  depends_on "gobject-introspection" => :build
   depends_on "cairo"
   depends_on "glib"
   depends_on "gtk+3"
